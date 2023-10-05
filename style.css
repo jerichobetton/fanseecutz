@@ -1,0 +1,177 @@
+@import url('https://fonts.cdnfonts.com/css/komika-axis');
+
+body {
+  color: white;
+  font-family: Helvetica;
+  margin: 0;
+}
+
+div {
+  border: ;
+  padding: 0px;
+
+}
+
+.heroVideo {
+  filter: brightness(.4);
+}
+
+
+video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -10;
+}
+
+
+
+.nav {
+  border: ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  font-size: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding: 1.3em;
+}
+
+.navlogo {
+  width: 50px;
+  height: 25px;
+  border: solid;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.navlinkcontainer {
+  display: flex;
+  margin: 33%;
+  font-size: 20px;
+
+
+}
+
+.navctacontainer {
+  display: flex;
+  border: ;
+}
+
+.navlinks {
+  margin: .3em
+}
+
+.navlinks:hover {
+  color: orange;
+  cursor: pointer;
+}
+
+.nav div {
+  border: ;
+  height: 30px;
+}
+
+button {
+  margin: .3m;
+  border-radius: 9px;
+}
+
+.appointment {
+  border: solid;
+  text: bold;
+
+}
+
+
+.services {
+  border: solid;
+  text: bold;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  font-size: 1.5em;
+}
+
+
+.descriptionText {
+  width: 64%;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-content: end;
+
+}
+
+.logoItem {
+  width: 110px;
+  height: 110px;
+  background-size: cover;
+  background-image: url('https://thumbs.dreamstime.com/b/hipster-barber-logo-design-icon-pole-red-blue-navy-vintage-retro-classic-victorian-style-barbershop-vector-gentlemen-195379977.jpg');
+  border-radius: 50%;
+  margin-top: 7em;
+  margin-bottom: -4em;
+  
+}
+
+.logoItemNav{
+  margin-right: 0px;
+  margin-left: 0px;
+  padding: 0;
+  width: 30px;
+  height: 120px;
+  border: solid;
+  background-size: cover;
+  background-image: url('https://thumbs.dreamstime.com/b/hipster-barber-logo-design-icon-pole-red-blue-navy-vintage-retro-classic-victorian-style-barbershop-vector-gentlemen-195379977.jpg');
+  border-radius: 50%;
+}
+
+.title {
+  border: ;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Komika Axis', sans-serif;
+  letter-spacing: 12px;
+  margin-bottom: -30px;
+}
+
+.titleitem {
+  color: ;
+  width: fit-content;
+}
+
+.cta {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+  align-items: center;
+  margin-top: 7em;
+
+}
+
+.cta button {
+  height: 80px;
+  width: 180px;
+  margin: 50px;
+  border: none;
+  background-color: white;
+}
+
+.cta button:hover{
+  background-color: orange;
+  cursor: pointer;
+}
+
